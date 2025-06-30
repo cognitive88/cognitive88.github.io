@@ -2,7 +2,7 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon = "/favicon.png"
+favicon = "/favicon-heart.png"
 
 [footer]
 since = 2020
@@ -77,8 +77,10 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = true
-provider = "disqus"
+enabled = false
+# provider = "disqus"
+provider = "cusdis"
+
 
 [comments.disqusjs]
 shortname = ""
